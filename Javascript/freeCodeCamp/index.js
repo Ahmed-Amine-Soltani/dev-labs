@@ -10,3 +10,24 @@ function increment() {
     count = count + 1
     countEL.innerText = count
 }
+
+
+
+let previousentries = document.getElementById("previous-entries")
+let entries = ""
+function save() {
+    
+    let save = document.getElementById("count-el").innerText + " -"
+    entries += save
+    previousentries.innerText = "Previous entries " + entries
+
+
+}
+
+
+
+
+
+
+
+
