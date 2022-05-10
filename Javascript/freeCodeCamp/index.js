@@ -14,12 +14,10 @@ function increment() {
 
 
 let previousentries = document.getElementById("previous-entries")
-let entries = ""
 function save() {
     
-    let save = document.getElementById("count-el").innerText + " -"
-    entries += save
-    previousentries.innerText = "Previous entries " + entries
+    let countStr = count + " - "
+    previousentries.innerText += countStr
 
 
 }
